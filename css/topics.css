@@ -1,0 +1,40 @@
+.topic {
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  border: 1px solid black;
+  overflow: auto;
+  background-color: white;
+}
+
+.topic-image > img {
+  width: calc(100% - 3rem);
+  margin: 1rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+.topic-text > p {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.topic-list {
+  padding-left: 3rem;
+}
+
+.topic-list li {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.found-out-more {
+  margin-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  display: block;
+}

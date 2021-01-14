@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS border</title>
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/topics.css" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header class="navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="margin.html">Margin</a></li>
+        <li><a href="padding.html">Padding</a></li>
+        <li><a href="border.html">Border</a></li>
+        <li><a href="fonts.html">Fonts</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="heignt-width.html">Height / Width</a></li>
+      </ul>
+    </header>
+    <h1 class="text-center">Height / Width</h1>
+
+    <section class="topic">
+      <section class="topic-image float-left w-40">
+        <img
+          src="https://openhome.cc/eGossip/JavaScript/images/ElementDimensions-2.png"
+          alt="width and height representation"
+        />
+        <img
+          src="https://dyclassroom.com/image/topic/css/element-view.png"
+          alt="width and height representation"
+        />
+      </section>
+      <section class="topic-text float-left w-60">
+        <p>
+          You can define an element's width and height through stylesheets, the
+          style attribute, or the style property prescribed via JavaScript; but
+          should be careful about what the width and height means actually. The
+          definition of an element's width and height depends on which box model
+          the browser takes. A box model views an element as a box which
+          contains four parts.
+          <br />
+          <br />
+          Box mode The content part is used to place the element's real content,
+          such as a text, an image or child elements. Every element has a
+          border. The padding part means the distance between the content and
+          border. The margin part means the distance from this element's border
+          to the other element's border. The content has a width and height. The
+          top, right, bottom, and left padding can be changed independently. The
+          border has a width. The top, right, bottom, and left margin can be
+          changed independently, too.
+          <br />
+          <br />
+          If the browser adopts the standard CSS Box Model, the specified width
+          and height of an element means the width and height of the content
+          part.
+
+          <br />
+          <br />
+          You can control dimension with these properties:
+        </p>
+        <ul class="topic-list">
+          <li>width</li>
+          <li>height</li>
+        </ul>
+
+        <a
+          class="found-out-more"
+          href="https://www.w3schools.com/css/css_dimension.asp"
+          >Found out more</a
+        >
+      </section>
+    </section>
+  </body>
+</html>
